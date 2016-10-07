@@ -26,11 +26,13 @@ html {
 
 .banner {
     width: 100%;
-    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
 }
 
 .banner-content {
     text-align: center;
     color: aliceblue;
+    position: relative;
 
 }
