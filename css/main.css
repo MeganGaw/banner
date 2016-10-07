@@ -25,14 +25,15 @@ html {
 }
 
 .banner {
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
+  width: 100%;
+  position: absolute;
+  max-height: 200px;
 }
 
 .banner-content {
-    text-align: center;
-    color: aliceblue;
-    position: relative;
-
+  color: aliceblue;
+  position: relative;
+  overflow: hidden;
+  bottom:inherit;
+  left:inherit;
 }
