@@ -25,16 +25,17 @@ html {
 }
 
 .banner {
-  width: 100%;
-  position: absolute;
-  max-height: 200px;
-  float: left;
+  position: relative;
+  max-height: 24em;
+  bottom: 0;
+  left: 0;
 }
 
 .banner-content {
   color: aliceblue;
-  position: relative;
+  position: absolute;
   overflow: hidden;
-  bottom:inherit;
-  left:inherit;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
