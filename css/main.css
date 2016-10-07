@@ -24,10 +24,18 @@ html {
   width: 100%;
 }
 
+body {
+    background: url("andromeda.jpg") repeat;
+}
+
 .banner {
+    position: absolute;
+    width: 100%; 
 
 }
 
 .banner-content {
+    text-align: center;
+    color: aliceblue;
 
 }
